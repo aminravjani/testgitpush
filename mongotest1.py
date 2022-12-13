@@ -11,6 +11,12 @@ d ={
     "surname": "kumar"
 }
 
+d ={
+    "name":"sudh",
+    "email": "sudh@ineuron.ai",
+    "surname": "kumar"
+}
+
 db1 = client['mongotest']
 coll = db1['test']
 coll.insert_one(d) # unable to run this code.see lecture MongoDB 4 hr 11 min
